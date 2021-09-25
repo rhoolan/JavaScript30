@@ -5,4 +5,4 @@ I create one small JavaScript project everyday for 30 days.
 
 [Day 02: CSS + JS Clock](https://github.com/rhoolan/JavaScript30/tree/main/02%20-%20JS%20and%20CSS%20Clock)
 
-[Day 03: CSS Variables]()
+[Day 03: CSS Variables](https://github.com/rhoolan/JavaScript30/tree/main/03%20-%20CSS%20Variables)
