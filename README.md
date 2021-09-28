@@ -10,3 +10,5 @@ I create one small JavaScript project everyday for 30 days.
 [Day 04: Array Cardio]()
 
 [Day 05: Flex Panel Gallery]()
+
+[Day 06: Type Ahead]()
