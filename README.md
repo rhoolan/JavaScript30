@@ -12,3 +12,5 @@ I create one small JavaScript project everyday for 30 days.
 [Day 05: Flex Panel Gallery]()
 
 [Day 06: Type Ahead]()
+
+[Day 07: Array Cardio Day 2]()
