@@ -37,7 +37,3 @@ canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
 
-
-
-
-// document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
