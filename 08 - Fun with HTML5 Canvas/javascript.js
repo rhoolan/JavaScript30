@@ -7,6 +7,7 @@ function changeCanvasSize() {
 };
 
 canvas_size.addEventListener('change', changeCanvasSize);
+canvas_size.addEventListener('mousemove', changeCanvasSize);
 
 // Canvas
 const canvas = document.querySelector('#draw');
@@ -24,7 +25,7 @@ function draw(e) {
     ctx.strokeStyle = document.querySelector('#color').value;
     ctx.lineWidth = document.querySelector('#size').value;
     ctx.lineJoin = 'round';
-ctx.lineCap = 'round';
+    ctx.lineCap = 'round';
     ctx.beginPath();
     ctx.moveTo(lastX, lastY);
     ctx.lineTo(e.offsetX, e.offsetY);
