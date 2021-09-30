@@ -5,6 +5,13 @@
   <title>HTML5 Canvas</title>
 </head>
 <body>
+<div id="controls">
+  <label for="base">Color</label>
+  <input id="color" type="color" name="base" value="#DBA74D">
+
+  <label for="size">Size:</label>
+    <input id="size" type="range" name="size" min="10" max="100" value="50" data-sizing="px">
+</div>
 <canvas id="draw" width="800" height="800"></canvas>
 <script src="javascript.js"></script>
 
