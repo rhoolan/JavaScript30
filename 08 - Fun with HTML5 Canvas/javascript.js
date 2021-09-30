@@ -1,11 +1,18 @@
+//Canvas size
+const canvas_size = document.querySelector("#canvas_size")
+
+function changeCanvasSize() {
+    document.getElementById("draw").width = this.value;
+    document.getElementById("draw").height = this.value;
+};
+
+canvas_size.addEventListener('change', changeCanvasSize);
+
 // Canvas
 const canvas = document.querySelector('#draw');
 const ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-ctx.lineJoin = 'round';
-ctx.lineCap = 'round';
-ctx.lineWidth = 50;
+canvas.width = document.querySelector('#canvas_size').value
+canvas.height = document.querySelector('#canvas_size').value
 
 let isDrawing = false;
 let lastX = 0;
@@ -16,6 +23,8 @@ function draw(e) {
     if(!isDrawing) return;
     ctx.strokeStyle = document.querySelector('#color').value;
     ctx.lineWidth = document.querySelector('#size').value;
+    ctx.lineJoin = 'round';
+ctx.lineCap = 'round';
     ctx.beginPath();
     ctx.moveTo(lastX, lastY);
     ctx.lineTo(e.offsetX, e.offsetY);

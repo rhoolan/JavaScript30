@@ -3,24 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML5 Canvas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="controls">
-  <label for="base">Color</label>
-  <input id="color" type="color" name="base" value="#DBA74D">
+<div id="content">
+  <div id="controls">
+    <label for="base">Color</label>
+    <input id="color" type="color" name="base" value="#DBA74D">
 
-  <label for="size">Size:</label>
+    <label for="size">Size:</label>
     <input id="size" type="range" name="size" min="10" max="100" value="50" data-sizing="px">
+
+    <label for="canvas_size">Size:</label>
+    <input id="canvas_size" type="range" name="size" min="100" max="1000" value="500" data-sizing="px">
+  </div>
+  <canvas id="draw" width="800" height="800"></canvas>
 </div>
-<canvas id="draw" width="800" height="800"></canvas>
 <script src="javascript.js"></script>
-
-<style>
-  html, body {
-    margin: 0;
-  }
-</style>
-
-
 </body>
 </html>
