@@ -16,3 +16,5 @@ I create one small JavaScript project everyday for 30 days.
 [Day 07: Array Cardio Day 2](https://github.com/rhoolan/JavaScript30/tree/main/07%20-%20Array%20Cardio%20Day%202)
 
 [Day 08: Fun with HTML 5 Canvas](https://github.com/rhoolan/JavaScript30/tree/main/08%20-%20Fun%20with%20HTML5%20Canvas)
+
+[Day 09: Dev Tools Domination](https://github.com/rhoolan/JavaScript30/tree/main/09%20-%20Dev%20Tools%20Domination)
